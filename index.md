@@ -24,3 +24,4 @@ Enseignant : [Baptiste Pesquet](http://bpesquet.fr).
 * [Accès aux données avec PHP](activities/acces-donnees-php)
 * [Accès aux données avec PHP et Silex](activities/acces-donnees-php-silex)
 * [Premiers pas avec GitHub](activities/premiers-pas-github)
+* [Déployer une application PHP sur OpenShift](activities/deployer-application-php-openshift)
