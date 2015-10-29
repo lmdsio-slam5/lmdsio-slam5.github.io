@@ -119,7 +119,7 @@ $app['debug'] = true;
 
 * Vérifiez que l'URL http://presidents fonctionne toujours.
 
-A présent, nous allons utiliser le fichier `app/config/prod.php` pour définir les paramètres liés au déploiement sur OpenShift. Les paramètres d'accès à la base de données seront spécifiques.
+A présent, nous allons utiliser le fichier `app/config/prod.php` pour définir la configuration liée au déploiement sur OpenShift. Les paramètres d'accès à la base de données seront spécifiques.
 
 * Donnez au fichier `app/config/prod.php` le contenu ci-dessous.
 
