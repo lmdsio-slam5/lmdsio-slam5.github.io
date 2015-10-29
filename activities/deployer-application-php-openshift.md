@@ -63,7 +63,7 @@ $ rhc setup
 
 ## Lien avec un projet existant
 
-* Récupérez puis installez votre version du projet [presidents](https://github.com/lmdsio-slam5/presidents). N'allez pas plus loin avant que l'URL http://presidents ne fonctionne sur votre machine.
+* Récupérez puis installez localement votre version du projet [presidents](https://github.com/lmdsio-slam5/presidents) (les consignes d'installation sont dans le `README`). N'allez pas plus loin avant que l'URL http://presidents ne fonctionne sur votre machine.
 
 ![](../assets/openshift/presidents_localhost.png)
 {:.centered}
