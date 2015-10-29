@@ -20,9 +20,12 @@ Nous allons l'utiliser pour déployer une application PHP utilisant le framework
 
     * Si vous êtes sous Windows, suivez pas-à-pas la [documentation OpenShift](https://developers.openshift.com/en/getting-started-windows.html) pour vous guider.
 
+    * Choisissez la version 2.1.7 de Ruby.
+
     * Après l'installation de Ruby, éditez le fichier `C:\Ruby21-x64\lib\ruby\2.1.0\win32\registry.rb` et modifiez la ligne 70 comme indiqué ci-dessous.
 
 ~~~
+#LOCALE = Encoding.find(Encoding.locale_charmap)
 LOCALE = Encoding::UTF_8
 ~~~
 
@@ -94,7 +97,7 @@ $ touch .openshift/markers/use_composer
 
 Le répertoire `.openshift` contient maintenant tous les paramètres liés à OpenShift.
 
-* Donnez au fichier `app/config/debug.php` de votre projet `presidents` le contenu ci-dessous. Il correspond au déploiement sur le serveur Apache/MySQL local.
+* Donnez au fichier `app/config/dev.php` de votre projet `presidents` le contenu ci-dessous. Il correspond au déploiement sur le serveur Apache/MySQL local.
 
 ~~~
 <?php
