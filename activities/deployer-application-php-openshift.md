@@ -149,7 +149,7 @@ $app['db.options'] = array(
 require __DIR__.'/../app/config/prod.php';
 ~~~
 
-* Commitez vos modifications dans le dépôt Git local.
+* Committez vos modifications dans le dépôt Git local.
 
 ~~~
 $ git add --all
@@ -181,4 +181,21 @@ Il ne reste plus qu'à implanter le schéma de la base de données sur OpenShift
 * A présent, accédez à l'URL https://presidents-VotreCompteOpenShift.rhcloud.com. L'application fonctionne sur OpenShift !
 
 ![](../assets/openshift/presidents_openshift.png)
+{:.centered}
+
+## Modifications ultérieures
+
+Une fois la configuration initiale effectuée, le déploiement de nouvelles modifications se fait en les committant dans le dépôt local, puis en lançant la commande :
+
+~~~
+$ git push openshift master
+~~~
+
+Il faudra jongler entre les configurations `dev` et `prod` dans le fichier `web/index.php` pour pouvoir tester localement puis déployer sur OpenShift.
+
+## Exercice
+
+* Modifiez l'application pour qu'elle affiche les dates de naissances des Présidents, puis déployez vos modifications sur OpenShift.
+
+![](../assets/openshift/presidents_years.png)
 {:.centered}
