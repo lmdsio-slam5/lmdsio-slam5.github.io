@@ -195,7 +195,7 @@ Il faudra jongler entre les configurations `dev` et `prod` dans le fichier `web/
 
 ## Exercice
 
-* Modifiez l'application pour qu'elle affiche les dates de naissances des Présidents, puis déployez vos modifications sur OpenShift.
+* Modifiez l'application pour qu'elle affiche les dates de naissance des Présidents, puis déployez vos modifications sur OpenShift.
 
 ![](../assets/openshift/presidents_years.png)
 {:.centered}
