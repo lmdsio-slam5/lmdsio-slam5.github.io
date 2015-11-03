@@ -73,7 +73,9 @@ $ rhc setup
 
 Une application OpenShift correspond à un dépôt Git hébergé chez OpenShift. Pour pouvoir déployer une application existante, il faut lier son dépôt Git local au dépôt distant OpenShift.
 
-* Allez sur votre [tableau de bord OpenShift](https://openshift.redhat.com/app/console/applications), cliquez sur votre application `presidents` puis copiez l'URL de son dépôt (elle est de type `ssh://...`). 
+* Allez sur votre [tableau de bord OpenShift](https://openshift.redhat.com/app/console/applications), cliquez sur votre application `presidents` puis copiez l'URL de son dépôt (elle est de type `ssh://...`).
+
+    * Si OpenShift vous indique que vous devez d'abord importer une clé SSH, cliquez sur l'onglet **Settings** pour vérifier la présence de cette clé, puis revenez à votre application.
 
 * Dans un terminal, déplacez-vous dans le répertoire du projet `presidents`. Tapez successivement les commandes suivantes.
 
