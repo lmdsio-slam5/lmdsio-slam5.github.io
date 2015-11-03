@@ -35,7 +35,7 @@ LOCALE = Encoding::UTF_8
 $ rhc setup
 ~~~    
 
-* Laissez le nom de serveur par défaut, puis continuez la procédure en saisissant votre login/mot de passe OpenShift et en répondant `yes` aux questions posées. Les outils OpenShift sont maintenant installés sur votre machine.
+* Laissez le nom de serveur par défaut, puis continuez la procédure en saisissant votre login/mot de passe OpenShift et en répondant `yes` aux questions posées. Choisissez un nom unique comme *namespace* (exemple : **bpesquet**). Les outils OpenShift sont maintenant installés sur votre machine.
 
 * Connectez-vous sur [OpenShift](https://openshift.redhat.com/app/login) puis choisissez de créer une nouvelle application. Sélectionnez PHP 5.4 puis saisissez `presidents` dans l'URL publique de la nouvelle application. 
 
