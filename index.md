@@ -25,3 +25,8 @@ Enseignant : [Baptiste Pesquet](http://bpesquet.fr).
 * [Accès aux données avec PHP et Silex](activities/acces-donnees-php-silex)
 * [Premiers pas avec GitHub](activities/premiers-pas-github)
 * [Déployer une application PHP sur OpenShift](activities/deployer-application-php-openshift)
+
+## Projet
+
+* [Paramètres du projet](https://trello.com/b/aNWUHBD8/parametres-projets-scrum)
+* [Exemple de résultat](http://oc-musicstore.herokuapp.com/)
