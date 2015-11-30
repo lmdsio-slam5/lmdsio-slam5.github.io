@@ -14,7 +14,7 @@ Pour réaliser cette activité, vous devez :
 
 ## Etapes
 
-* Lancez l'installation de [GitHub Desktop](https://desktop.github.com/) pour votre environnement.
+* (Optionnel) Lancez l'installation de [GitHub Desktop](https://desktop.github.com/) pour votre environnement.
 
 * Sans attendre la fin de l'installation, connectez-vous sur [github.com](https://github.com/) et créez un nouveau dépôt (*repository*) nommé `hello-world-github` avec les paramètres ci-dessous.
 
@@ -63,11 +63,11 @@ Mais pas le dernier !
 
 * Lancez la commande `git log` pour afficher l'historique des modfications.
 
-* Lorsque l'installation de GitHub Desktop est terminée, lancez-le puis choisissez d'ajouter un nouvel dépôt (*Add repository*). Sélectionnez le répertoire `hello-world-github` puis validez.
+* (Optionnel) Lorsque l'installation de GitHub Desktop est terminée, lancez-le puis choisissez d'ajouter un nouvel dépôt (*Add repository*). Sélectionnez le répertoire `hello-world-github` puis validez.
 
-* Observez l'historique des modifications sur le dépôt avec GitHub Desktop.
+* (Optionnel) Observez l'historique des modifications sur le dépôt avec GitHub Desktop.
  
-* Ajoutez localement une nouvelle ligne de votre choix au fichier README.md.
+* (Optionnel) Ajoutez localement une nouvelle ligne de votre choix au fichier README.md.
 
-* Depuis GitHub Desktop, committez votre modification avec un commentaire puis cliquez sur le bouton **Sync** au haut à gauche. La nouvelle modification est poussée sur GitHub. 
+* (Optionnel) Depuis GitHub Desktop, committez votre modification avec un commentaire puis cliquez sur le bouton **Sync** en haut à droite. La nouvelle modification est poussée sur GitHub. 
 
