@@ -44,6 +44,6 @@ title: Memento Git
 |`git clone remote-location`| Crée une copie locale du dépôt distant situé à l'emplacement *remote-location*. Le dépôt distant est nommé `origin`.
 |`git remote -v`| Affiche la liste des dépôts distants liés au dépôt local.
 |`git remote add remote-name remote-location`| Ajoute le dépôt distant situé à l'emplacement *remote-location* sous le nom *remote-name*.
-|`git fetch remote-name`| Récupère le contenu du dépôt distant *remote-name* dans la branche *remote-name/master*, qu'on appelle une branche distante.
-|`git merge remote-name/master`| Intègre le contenu de la branche distante *remote-name/master* dans la branche courante.
+|`git fetch remote-name`| Récupère le contenu du dépôt distant *remote-name*. 
+|`git merge remote-name/branch-name`| Intègre le contenu de la branche distante *remote-name/branch-name* dans la branche courante.
 |`git push remote-name branch-name`| Pousse le contenu de la branche locale *branch-name* vers le dépôt distant *remote-name*.
