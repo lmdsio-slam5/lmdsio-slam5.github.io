@@ -18,6 +18,7 @@ license:
 collections:
   addons:
     output: true
+    permalink: /:collection/:path:output_ext
 
 kramdown:
   parse_block_html: true
