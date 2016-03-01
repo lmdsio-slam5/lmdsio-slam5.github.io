@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Memento Git
+title: Mémento Git
 ---
 
 ## Processus de travail
@@ -26,6 +26,8 @@ title: Memento Git
 | `git checkout HEAD filename` | Remplace la version locale de *filename* par la dernière version committée.
 |`git reset HEAD filename`| Enlève le fichier *filename* de l'Index.
 |`git reset commit-SHA`| Revient à un précédent commit identifié par *commit-SHA* (ses 7 premiers caractères).
+
+[Plus de détails](https://www.atlassian.com/git/tutorials/resetting-checking-out-and-reverting/)
 
 ## Branches
 
