@@ -8,6 +8,13 @@ title: Mémento Git
 ![](../assets/memento-git/git-workflow.png)
 {:.centered}
 
+## Configuration utilisateur
+
+|Commande | Action |
+-----------|---------
+| `git config --global user.name username` | Définit *username* comme nom d'utilisateur. |
+| `git config --global user.email email`| Définit *email* comme courriel d'utilisateur. |
+
 ## Commandes de bases
 
 |Commande | Action |
