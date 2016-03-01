@@ -18,7 +18,7 @@ Enseignant : [Baptiste Pesquet](http://bpesquet.fr).
 * [Programmez en orienté objet en PHP](https://openclassrooms.com/courses/programmez-en-oriente-objet-en-php)
 * [La POO avec PHP en bref](http://prof.bpesquet.fr/cours/poo-php-en-bref/)
 * [Evoluez vers une architecture PHP professionnelle](https://openclassrooms.com/courses/evoluez-vers-une-architecture-php-professionnelle)
-* [Memento Git](lessons/memento-git)
+* [Mémento Git](lessons/memento-git)
 
 ## Activités
 
