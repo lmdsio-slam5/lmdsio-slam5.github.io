@@ -32,3 +32,4 @@ Enseignant : [Baptiste Pesquet](http://bpesquet.fr).
 * [Paramètres du projet](https://trello.com/b/aNWUHBD8/parametres-projets-scrum)
 * [Exemple de résultat](http://oc-musicstore.herokuapp.com/)
 * [Code pour crypter un mot de passe avec SIlex](https://gist.github.com/bpesquet/501c789f01e5bdeda90d)
+* [Processus de validation](projects/validation)
