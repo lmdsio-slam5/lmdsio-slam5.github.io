@@ -42,11 +42,11 @@ Pour réaliser cette activité, vous devez :
 Ceci est mon premier dépôt GitHub.
 ~~~
 
-* Depuis le terminal, déplacez-vous dans ce répertoire `hello-world-github` puis committez votre modification dans votre dépôt local avec le commentaire `Modification README`.
+* Depuis le terminal, déplacez-vous dans ce répertoire `hello-world-github` puis committez votre modification (`git add` puis `git commit`) dans votre dépôt local avec le commentaire `Modification README`.
 
- * Lancez la commande `git push`. Votre modification est *poussée* sur votre dépôt GitHub.
+* Lancez la commande `git push`. Votre modification est *poussée* sur votre dépôt GitHub.
 
- * Depuis github.com, cliquez sur le fichier README.md puis cliquez sur le bouton d'édition.
+* Depuis github.com, cliquez sur le fichier README.md puis cliquez sur le bouton d'édition.
 
 ![](../assets/premiers-pas-github/edit-button.png)
 {:.centered}
@@ -62,6 +62,52 @@ Mais pas le dernier !
 * Depuis le terminal, lancez la commande `git pull` pour récupérer la modification depuis GitHub.
 
 * Lancez la commande `git log` pour afficher l'historique des modfications.
+
+* Depuis github.com, modifiez le fichier `README.md` de la manière suivante.
+
+~~~
+# hello-world-github BIS
+~~~
+
+* Commitez vos modifications avec le commentaire "Modification titre GitHub".
+
+* Avant d'effectuer un `git pull`, modifiez le fichier `README.md` sur votre machine locale de la manière suivante.
+
+~~~
+# hello-world-github TER
+~~~
+
+* Commitez vos modifications dans votre dépôt local avec le commentaire "Modification titre locale".
+
+* Tentez de pusher votre modification locale vers GitHub. Vous obtenez un message d'erreur : vous devez d'abord intégrer les modifications faites sur le dépôt GitHub.
+
+![](../assets/premiers-pas-github/error-push.png)
+{:.centered}
+
+* Effectuez un `git pull` pour récupérer localement les modifications du dépôt GitHub : un **conflit** est apparu sur le fichier `README.md`, qui a été modifié des deux côtés et qui ne peut pas être fusionné automatiquement par Git. Une intervention manuelle est nécessaire.
+
+![](../assets/premiers-pas-github/error-conflict.png)
+{:.centered}
+
+* Ouvrez le fichier `README.md` avec un éditeur de texte. Les zones en conflit sont délimitées par des marqueurs `<<<<<<<` et `>>>>>>>`. La zone `HEAD` correspond à la modification faite localement. L'autre zone correspond à la modification réalisée sur github.com.
+
+~~~
+<<<<<<< HEAD
+# hello-world-github TER
+=======
+# hello-world-github BIS
+>>>>>>> c1129dfbbe585fc94978be38625b5ae7f63474bf
+~~~
+
+* Résolvez le conflit en modifiant le titre et en supprimant les marques de conflit dans le fichier.
+
+~~~
+# hello-world-github FINAL
+~~~
+
+* Faites un `git add` pour indiquer la résolution puis commitez le fichier fusionné avec le commentaire "Résolution conflit".
+
+* Pushez les modifications sur GitHub pour voir apparaître le nouveau titre.
 
 * (Optionnel) Lorsque l'installation de GitHub Desktop est terminée, lancez-le puis choisissez d'ajouter un nouvel dépôt (*Add repository*). Sélectionnez le répertoire `hello-world-github` puis validez.
 
